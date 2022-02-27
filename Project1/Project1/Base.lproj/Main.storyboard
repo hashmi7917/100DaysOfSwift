@@ -27,7 +27,7 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UQB-Iu-sNp">
                                             <rect key="frame" x="20" y="0.0" width="357.5" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -44,7 +44,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WaV-Da-QA1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780" y="102"/>
+            <point key="canvasLocation" x="670" y="50"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="kLp-JF-txz">
@@ -54,17 +54,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A69-nS-45E">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A69-nS-45E">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Csh-sQ-z39"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="A69-nS-45E" firstAttribute="centerY" secondItem="YLg-cX-QmT" secondAttribute="centerY" id="Fqs-eP-tTU"/>
-                            <constraint firstItem="A69-nS-45E" firstAttribute="leading" secondItem="Csh-sQ-z39" secondAttribute="leading" id="JR2-aF-588"/>
-                            <constraint firstItem="A69-nS-45E" firstAttribute="centerX" secondItem="YLg-cX-QmT" secondAttribute="centerX" id="mmX-hP-sdh"/>
-                            <constraint firstItem="A69-nS-45E" firstAttribute="top" secondItem="YLg-cX-QmT" secondAttribute="topMargin" constant="-44" id="tXx-xo-Acm"/>
+                            <constraint firstItem="A69-nS-45E" firstAttribute="leading" secondItem="Csh-sQ-z39" secondAttribute="leading" id="3LP-Ng-uWK"/>
+                            <constraint firstItem="A69-nS-45E" firstAttribute="top" secondItem="Csh-sQ-z39" secondAttribute="top" id="KcD-ab-oOh"/>
+                            <constraint firstItem="A69-nS-45E" firstAttribute="bottom" secondItem="Csh-sQ-z39" secondAttribute="bottom" id="tIc-Nt-2ZV"/>
+                            <constraint firstItem="A69-nS-45E" firstAttribute="trailing" secondItem="Csh-sQ-z39" secondAttribute="trailing" id="zl7-kx-URO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -73,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hf-6f-cDY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446.376811594203" y="101.78571428571428"/>
+            <point key="canvasLocation" x="1338" y="50"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gI2-uq-D9x">
