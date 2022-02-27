@@ -1,7 +1,9 @@
 # 100DaysOfSwift
 Hacking With Swift Challenge Started
 
-Friday/25/2022 new challenge of 100DaysOfSwift
+25/2/2022 new challenge of 100DaysOfSwift
+.........................................
+
 
 Added DetailViewController
 
