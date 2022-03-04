@@ -19,28 +19,39 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5x-1E-FRb">
                                 <rect key="frame" x="95" y="100" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VVd-eh-JJM"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Caj-cn-h2O">
-                                <rect key="frame" x="95" y="244" width="224" height="114"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDN-E8-gp5">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDN-E8-gp5">
                                 <rect key="frame" x="95" y="388" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us" imagePadding="0.0"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nou-cD-2cL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Caj-cn-h2O">
+                                <rect key="frame" x="95" y="236" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us" imagePadding="0.0"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rml-Lm-Gdk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="c5x-1E-FRb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="PVN-Q2-N4O"/>
-                            <constraint firstItem="UDN-E8-gp5" firstAttribute="top" secondItem="Caj-cn-h2O" secondAttribute="bottom" constant="30" id="aLj-Wu-31n"/>
-                            <constraint firstItem="UDN-E8-gp5" firstAttribute="centerX" secondItem="Caj-cn-h2O" secondAttribute="centerX" id="cir-gc-KT8"/>
-                            <constraint firstItem="c5x-1E-FRb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="is4-KZ-SKs"/>
-                            <constraint firstItem="Caj-cn-h2O" firstAttribute="centerX" secondItem="c5x-1E-FRb" secondAttribute="centerX" id="mwX-QQ-Omq"/>
-                            <constraint firstItem="Caj-cn-h2O" firstAttribute="top" secondItem="c5x-1E-FRb" secondAttribute="bottom" constant="30" id="otS-vk-6Nd"/>
+                            <constraint firstItem="c5x-1E-FRb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9ul-XP-Ash"/>
+                            <constraint firstItem="UDN-E8-gp5" firstAttribute="centerX" secondItem="Caj-cn-h2O" secondAttribute="centerX" id="Mbx-ct-zZI"/>
+                            <constraint firstItem="Caj-cn-h2O" firstAttribute="centerX" secondItem="c5x-1E-FRb" secondAttribute="centerX" id="cVh-cQ-Rqb"/>
+                            <constraint firstItem="c5x-1E-FRb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="oVB-Wk-sR1"/>
+                            <constraint firstItem="Caj-cn-h2O" firstAttribute="top" secondItem="c5x-1E-FRb" secondAttribute="bottom" constant="22" id="tbo-nt-T1e"/>
+                            <constraint firstItem="UDN-E8-gp5" firstAttribute="top" secondItem="Caj-cn-h2O" secondAttribute="bottom" constant="38" id="y0K-4w-YZj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="l07-9E-iIx"/>
