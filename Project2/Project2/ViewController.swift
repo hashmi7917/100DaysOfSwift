@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var countries = [String]()
     var score = 0
     var correctAnswer = 0
-    var questionAsked = 0
+    var questionAsked = 1
     var alertTitle = ""
     var finalScore = 0
     
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
             alertTitle = "Wrong Flag 😞\(countries[sender.tag].uppercased())"
         }
         
-        if questionAsked == 5 {
+        if questionAsked == 10 {
             alertTitle = "Completd 5 question"
             questionAsked = 0
             reset()
