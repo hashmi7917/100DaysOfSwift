@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .tertiarySystemBackground
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(showScore))
+        
         countries += ["estonia", "france", "germany",
                       "ireland", "italy", "monoco", "nigeria",
                       "poland", "russia", "spain", "uk", "us"]
@@ -81,6 +83,13 @@ class ViewController: UIViewController {
     
     func reset() {
       questionAsked = 0
+    }
+    
+    @objc func showScore() {
+        
+        let ac = UIAlertController(title: "Score \(finalScore)", message: "Keep Playing", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        present(ac, animated: true)
     }
     
 }
