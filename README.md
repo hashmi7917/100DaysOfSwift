@@ -4,7 +4,7 @@ Hacking With Swift Challenge Started
 
 25/2/2022 new challenge of 100DaysOfSwift
 <hr/>
-
+<h2>
 
 Project2 Challenge of Project3 Completed
 ![Screenshot 2022-03-05 at 10 13 51 PM](https://user-images.githubusercontent.com/38833326/156892336-90b88624-2ea6-485f-abd1-03bd2eb73423.png)
@@ -23,9 +23,9 @@ Designing your layout
 
 ![Screenshot 2022-03-01 at 12 09 41 PM](https://user-images.githubusercontent.com/38833326/156118222-880c0f2f-74bb-43bd-9412-5225ede024e9.png)
 
-<h2>Project2 started<h2/>
+Project2 started
 
-<h2>Project1 Completed With Challenges<h2/>
+Project1 Completed With Challenges
 
 ![Project1](https://user-images.githubusercontent.com/38833326/155891386-70242db7-c87f-4066-8696-25e559f5bc3c.gif)
 
@@ -41,4 +41,4 @@ Listing Images in Filemanager
 
 ![img1](https://user-images.githubusercontent.com/38833326/155761237-e145dda7-d6fc-4770-b6e9-3798707fbbd1.png)
 
-Project1 Started
+Project1 Started </h2>
