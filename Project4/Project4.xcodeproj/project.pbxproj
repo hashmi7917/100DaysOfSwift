@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3A1DEF27D7B5F300A45F6C /* WebListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A1DEE27D7B5F300A45F6C /* WebListTVC.swift */; };
 		1CCEED6427D3D17B00B6363E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEED6327D3D17B00B6363E /* AppDelegate.swift */; };
 		1CCEED6627D3D17B00B6363E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEED6527D3D17B00B6363E /* SceneDelegate.swift */; };
 		1CCEED6827D3D17B00B6363E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEED6727D3D17B00B6363E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C3A1DEE27D7B5F300A45F6C /* WebListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebListTVC.swift; sourceTree = "<group>"; };
 		1CCEED6027D3D17B00B6363E /* Project4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCEED6327D3D17B00B6363E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CCEED6527D3D17B00B6363E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				1CCEED6327D3D17B00B6363E /* AppDelegate.swift */,
 				1CCEED6527D3D17B00B6363E /* SceneDelegate.swift */,
 				1CCEED6727D3D17B00B6363E /* ViewController.swift */,
+				1C3A1DEE27D7B5F300A45F6C /* WebListTVC.swift */,
 				1CCEED6927D3D17B00B6363E /* Main.storyboard */,
 				1CCEED6C27D3D18100B6363E /* Assets.xcassets */,
 				1CCEED6E27D3D18100B6363E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1CCEED6827D3D17B00B6363E /* ViewController.swift in Sources */,
 				1CCEED6427D3D17B00B6363E /* AppDelegate.swift in Sources */,
+				1C3A1DEF27D7B5F300A45F6C /* WebListTVC.swift in Sources */,
 				1CCEED6627D3D17B00B6363E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
